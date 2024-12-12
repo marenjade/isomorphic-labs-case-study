@@ -47,8 +47,18 @@ a {
     display: flex;
 }
 
-.image--one {
+.section--two {
+    display: flex;
+    gap: 300px;
+}
+
+.section--two img {
     width: 400px;
+    margin-right: 0;
+}
+
+.image--one {
+    width: 370px;
     margin-left: 0;
     flex: 1;
     margin-top: 80px;
@@ -87,6 +97,7 @@ a {
     margin-left: 200px;
     flex-wrap: nowrap;
     padding-bottom: 0;
+    height: 350px;
 
 }
 
